@@ -1,3 +1,4 @@
 # La solucion a la que llegamos es poder descomprimir los Documentos utilizando el --xzvf tpPracticoPermisos,una vez hecho esto
 ##de poder acceder a esta prosegui verifique si podia acceder a esta y luego  dando los permisos correspondientes usando la tabla dando asì luego a cada uno de los documentos de los
 ## que se iria requiriendo
+https://github.com/CarlosJesusJaramillo/carlosjaramilloIMT-231.git
