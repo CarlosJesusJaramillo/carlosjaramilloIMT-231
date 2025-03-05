@@ -1,4 +1,33 @@
+## Enlace repositorio: https://github.com/CarlosJesusJaramillo/carlosjaramilloIMT-231.git
 # La solucion a la que llegamos es poder descomprimir los Documentos utilizando el --xzvf tpPracticoPermisos,una vez hecho esto
 ##de poder acceder a esta prosegui verifique si podia acceder a esta y luego  dando los permisos correspondientes usando la tabla dando asì luego a cada uno de los documentos de los
 ## que se iria requiriendo
 https://github.com/CarlosJesusJaramillo/carlosjaramilloIMT-231.git
+## Ejercicio 1 
+## Primero entramos en el script del documento1.txt y escribimos lo solicitado
+## utilizamos el comando cat documento1.txt para poder leer lo que esta dentro del documento
+## Procedemos a dar los permisos correspondientes a los grupos correspondientes
+## se utilizo el comando chmod 640  danto permisos de lectura y escritura para el propietario con valor 6, lectura para el grupo con valor 4 y no acceso a otros con el valor 0
+## Ejercicio 2
+##Primero creamos el documento script.sh y procedemos a ir al script utilizando el comando nano script.sh
+## Escribimos los datos requeridos utilizando el echo con el  que se pide ingresar un nombre de usuario y al ingresar  utilizados el comando  read nombreusuario
+##Luego escribimos un mensaje de bienvenida utlizando echo "    " $nombreusuario " " y entre las comillas ponemos un mensaje de bienvenida
+## luego se pide que imprimamos el contenido de la terminar y con este utlizamos el comando cat script.sh
+##Proseguimos dando los permisos correspondientes al propietario, grupo y otros
+## utilozamos el chmod 711 dando permisos de lectura,escritura y ejercucion al propietario con el valor 7 , y ejecucion para grupo y otros con el valor 1
+## Una vez teniendo todo proseguimos para ejecutarlo utilizando el -/script.sh y vemos si podemos escribir y ejecutar lo solicitado para este ejercicio.
+##Ejericio 3 
+## Primero cramos el documento config.cfg utilizando el touch config.cfg
+## utilizamos el nano config.cfg para escribir algunos datos, para hacer una prueba y que el documento no este vacio
+## luego damos los permisos correspondientes de o que seria lectura y escritura para el propietario con valor 6, y para el grupo y otros no tendrian acceso a estos con un valor 00
+## chmod 600 config.cfg
+## procedemos a la verificacion con el ls -l y nos mostro que en concreto solo el propietario tiene el acceso de lectura y escritura.
+##Ejericio 4
+##En el ejercicio se pide crear un nuevo documento llamado secreto.key y con el que lo crearemos con el comando touch secreto.key
+## luego en el script escribimos algun texto para dejar en constancia y que no se quede vacio con el nano secreto.key
+##Damos los permisos correspondientes que se pidieron dando solo permiso de lectura para el propietario y mientras el grupo y otros no tienen acceso
+## utilizamos el comando chmod 400 secreto.key
+## comprobamos los permisos con el comando ls -l y verificamos si nuestro documento tiene los permisos otorgados
+ 
+
+
