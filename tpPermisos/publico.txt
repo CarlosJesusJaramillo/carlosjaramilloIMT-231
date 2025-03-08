@@ -1,0 +1,5 @@
+#!/bin/bash
+##Este es un archivo publico, el cual es libre para todos
+echo " Damos el permiso chmod 666 para dar permisos de lectura y escritura para el dueño, el grupo y otros, permitiendo que todos puedan acceder y modificar el archivo."
+## https://github.com/CarlosJesusJaramillo/carlosjaramilloIMT-231.git
+

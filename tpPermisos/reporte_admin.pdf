@@ -1,0 +1,3 @@
+#!/bin/bash
+##Este es un texto dento del documento para que no este vacio
+##Damos el permiso chmod 640 para dar permisos de lectura y escritura solo para el dueño, lectura para el grupo del dueño, y sin acceso para otros usuarios.

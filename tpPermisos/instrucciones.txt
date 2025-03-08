@@ -1,0 +1,5 @@
+#!/bin/bash
+##Este esa prueba de dejar un poco de texto en el documento
+##Esta es una guìa de intrucciones
+##Damos el permiso chmod 644 para dar permisos de lectura y escritura solo para el dueño, y permisos de solo lectura para el grupo y otros, permitiendo 
+##que todos puedan leerlo, pero solo el dueño pueda modificarlo.

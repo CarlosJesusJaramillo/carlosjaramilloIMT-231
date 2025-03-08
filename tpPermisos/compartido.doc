@@ -1,0 +1,4 @@
+#!/bin/bash
+## Este texto existe para no dejar vacio el script
+##Damos el permiso chmod 666 para dar permisos de lectura y escritura para el dueño, el grupo y otros, permitiendo que todos puedan leer y modificar el archivo.
+
