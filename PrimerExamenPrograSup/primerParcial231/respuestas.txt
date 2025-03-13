@@ -1,0 +1,66 @@
+Archivo de Respuestas: respuestas.txt
+
+Datos del Estudiante
+- Nombre Completo:Carlos Jesus Jaramillo Guzman  
+- URL de GitHub de la carpeta del examen:https://github.com/CarlosJesusJaramillo/carlosjaramilloIMT-231.git
+
+---
+
+## Tarea 1: Navegación y Creación de Carpetas
+
+- Permiso octal usado para restaurar permiso minimo de la carpeta primerParcial:el comando que utilice para poder dar permisos dentro de documento fue el chmod 700 para poder acceder al documento
+
+
+- Comandos usados y justificaciones :
+los comandos usados fueron los pwd para comenzar a ver la ruta y en que direccion estaba, utilice el cd para poder cambiar lo que seria de directorio y poder acceder a los documentos, y asi en estos para la creacion del documento con un mkdir extraFolder en la direccion, y el uso nuevamente del cd para entrar en este
+
+
+---
+
+## Tarea 2: Permisos en Formato Octal
+- Permiso octal usado para esta tarea : el numero octal utilizado es el chmod 600 debido a que este da los permisos de lectura y escritura, y para que los demas no tengan acceso a este, y luego se utiliza el date > mainConfig.cfg para que se imprima la fecha en el script
+
+
+- Comandos usados y justificaciones :
+chmod 700 para poder acceder a este documento
+date > Tarea2/mainConfig.cfg para poder imprimir la fecha dentro del script la hora en la que estuve en el ejercicio
+chmod 600 para dar permisos de lectura y escritura, y a los demas no dar permisos
+
+---
+## Tarea 3: Scripting Básico 
+- Permiso octal usado para el `basicScript.sh`:Primero Usamos el chmod 700 para poder tener acceso a estos documentos, posteriormente comenzamos a escribir dentro del scrip utilizando el nano para este, colocamos primeramente el bin/bash para iniciar, usando echo colocamos de ingreso de nombre, luego utilizamos el read y definir una variable que leera, luego un echo  otra vez dar un saludo y con el nombre leido, yo coloque la fecha como un comprobante, volvemos y vemos de crear con el mkdir para crear el nueva carpeta ubicaciones y dentro de ella crear el documento ubicaciones.txt donde escribimos la ubicacion en donde nos encompramos, luego creamos otra con el touch fechaTarea3.txt domde en el script utilizamos el date o date > fechaTarea2.txt para que imprima la hora que se creo 
+luego volvemos a dar permisos chmod 545 para lectura para dueño, grupos puedan leer y otros con el mismo permiso para la ejecucion.
+- Comandos usados y justificaciones :
+mkdir ubicaciones
+chmod 700
+touch ubicaciones.txt
+touch fechaTarea3.txt
+date > fechaTarea3.txt
+
+
+---
+## Tarea 4: Edición con nano o vim 
+
+- para que usamos el comando `cat` ?: El comando cat es utilizado para poder imprimir lo que esta en el script,y con el cual no es nescesario entrar a este y se imprimir en la terminal
+
+- Comandos usados y justificaciones :
+chmod 700 para dar todos los permisos para acceder a este documento
+date > infoDocument.txt da la hora en el script
+whoami >> info....     nombre de usuario 
+uname -r >> info .... la version kerpel
+el nano infor....   para entrar y escribir el comentatio como la distribuidora
+
+
+---
+## Tarea 5: Final
+
+- para que usamos el comando `tree -p` y para que su argumento `-p` ?: se utiliza para mostrar la estructura jerárquica de archivos y directorios en una forma visual, similar a un árbol.
+
+
+- Permiso octal para `entregaFinal.txt`: 
+el permiso otorgado es el chmod 555 donde solo se dijo de dar permisos de lectura y ejecucion
+- Comandos usados y justificaciones :
+touch entregaFinal crear este documento
+mkdir para crear el archivo tarea5
+pegamos la informacion del tree -p > entregaFinal.txt
+damos el permiso de lectura y ejecucion al archivo con el chmod 555 a este

@@ -1,0 +1,4 @@
+[drwxrwxr-x]  .
+└── [-rw-rw-r--]  entregaFinal.txt
+
+1 directory, 1 file

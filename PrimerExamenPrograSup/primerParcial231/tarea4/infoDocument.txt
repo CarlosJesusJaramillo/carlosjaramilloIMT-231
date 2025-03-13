@@ -1,0 +1,5 @@
+jue 13 mar 2025 12:10:47 -04
+carlos-jesus
+6.8.0-52-generic
+##Distribucion de Linux: Ubuntu 24.04.1 LTS
+## Este es un documento tarea4
